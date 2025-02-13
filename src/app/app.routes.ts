@@ -8,7 +8,9 @@ import { NoutatiComponent } from './Domains/info/pages/noutati/noutati.component
 export const routes: Routes = [
     {
         path: "",
-        component: HomeComponent
+        component: HomeComponent,
+        title: "Progres Rural"
+
     },
     {
         path: "boards",
